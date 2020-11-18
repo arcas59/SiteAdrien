@@ -134,12 +134,14 @@ body::-webkit-scrollbar {
         grid-template-columns: 20% 1fr;
         padding: 2.5% 5%;
         z-index: 9999;
+
+    }
+    #ùyvideo{
+        margin-top: 200px;
     }
 }
 @media only screen and (max-width: 550px) {
     .omar-nav {
-        background: #3C3C3C;
-        position: relative !important;
         font-size: 14px;
         padding: 5% !important;
     }
@@ -206,9 +208,9 @@ body::-webkit-scrollbar {
     -ms-flex-align: center;
     align-items: center;
     position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 240px;
+    left: 0;
+    right: 0;
+    bottom: 240px;
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption {
@@ -218,13 +220,16 @@ body::-webkit-scrollbar {
 }
 @media only screen and (max-width: 1200px) {
     .hero .hero-caption {
-        bottom: 340px;
+        bottom: 350px;
     }
     .hero .hero-caption h1 {
-        font-size: 80px;
+        font-size: 40px;
     }
     .hero .hero-caption h2{
-        font-size: 60px;
+        font-size: 25px;
+    }
+    .rotator{
+        font-size: 25px;
     }
 }
 h1
@@ -241,25 +246,31 @@ h1
 }
 @media (max-width: 768px) and (min-width: 551px) {
     .hero .hero-caption h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 @media only screen and (max-width: 550px) {
     .hero .hero-caption h1 {
-        font-size: 48px;
+        font-size: 28px;
     }
 }
 .hero .hero-caption h2 {
-    font-size: 36px;
+    font-size: 25px;
 }
 @media (max-width: 768px) and (min-width: 551px) {
-    .hero .hero-caption h2 {
-        font-size: 20px;
+    .hero .hero-caption h2, .rotator{
+        font-size: 23px;
+        text-align: center;
+    }
+    .hero-caption{
+        vertical-align: middle;
     }
 }
 @media only screen and (max-width: 550px) {
-    .hero .hero-caption h2 {
+    .hero .hero-caption h2, .rotator {
         font-size: 16px;
+        text-align: center;
+        margin-bottom: 200px;
     }
 }
 @media only screen and (min-width: 769px) {
