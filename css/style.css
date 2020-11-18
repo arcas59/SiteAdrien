@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
 }
 @media only screen and (max-width: 768px) {
     .hero {
-        background-image: url("image/fondmobile.png");
+       
     }
 }
 .hero .hero-caption {
