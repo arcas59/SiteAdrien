@@ -34,6 +34,14 @@ a {
 .headline {
     text-align: center;
     z-index: 1;
+    font-size: 70px;
+}
+.head2{
+    font-size: 40px;
+    text-align: center;
+}
+.rotator{
+    font-size: 40px;
 }
 video
 {
@@ -136,9 +144,6 @@ body::-webkit-scrollbar {
         z-index: 9999;
 
     }
-    #ùyvideo{
-        margin-top: 200px;
-    }
 }
 @media only screen and (max-width: 550px) {
     .omar-nav {
@@ -193,50 +198,34 @@ body::-webkit-scrollbar {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-@media only screen and (max-width: 768px) {
-    .hero {
-       
-    }
-}
 .hero .hero-caption {
     text-align: left;
-    color: white !important;
-    z-index: 1;
+    color: black;
+    z-index: 99;
     display: -ms-grid;
     display: grid;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 240px;
+    color: black;
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption {
         margin-left: 10%;
-        color: white 
     }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
     .hero .hero-caption {
-        bottom: 350px;
-    }
-    .hero .hero-caption h1 {
-        font-size: 40px;
-    }
-    .hero .hero-caption h2{
-        font-size: 25px;
-    }
-    .rotator{
-        font-size: 25px;
+        color: white !important;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 100px;
     }
 }
-h1
-{
-    font-size: 60px;
-}
-.hero .hero-caption h2{
+.hero .hero-caption h1 {
     font-size: 90px;
 }
 @media only screen and (min-width: 769px) {
@@ -246,36 +235,30 @@ h1
 }
 @media (max-width: 768px) and (min-width: 551px) {
     .hero .hero-caption h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 @media only screen and (max-width: 550px) {
     .hero .hero-caption h1 {
-        font-size: 28px;
+        font-size: 48px;
     }
 }
 .hero .hero-caption h2 {
-    font-size: 25px;
+    font-size: 36px;
 }
 @media (max-width: 768px) and (min-width: 551px) {
-    .hero .hero-caption h2, .rotator{
-        font-size: 23px;
-        text-align: center;
-    }
-    .hero-caption{
-        vertical-align: middle;
+    .hero .hero-caption h2 {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 550px) {
-    .hero .hero-caption h2, .rotator {
+    .hero .hero-caption h2 {
         font-size: 16px;
-        text-align: center;
-        margin-bottom: 200px;
     }
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption .rotator-wrap {
-        border-color: white !important;
+        border-color: black !important;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -735,10 +718,6 @@ footer .copyright span {
 .pagecontent .projects {
     max-width: 980px;
     margin: auto;
-}
-@media only screen and (max-width: 979px) {
-    .pagecontent .projects {
-    }
 }
 @media (max-width: 979px) and (min-width: 551px) {
     .pagecontent .projects {

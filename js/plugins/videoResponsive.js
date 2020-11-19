@@ -2,7 +2,7 @@ var video = $('#myvideo');
 
 var WindowWidth = $(window).width();
 
-if (WindowWidth < 768) {
+if (WindowWidth < 769) {
     //It is a small screen
     video.append("<source src='video/videomob.webm' type='video/webm' >");
 } else {
