@@ -200,7 +200,7 @@ body::-webkit-scrollbar {
 }
 .hero .hero-caption {
     text-align: left;
-    color: black;
+    color: white !important;
     z-index: 99;
     display: -ms-grid;
     display: grid;
@@ -258,7 +258,7 @@ body::-webkit-scrollbar {
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption .rotator-wrap {
-        border-color: black !important;
+        border-color: white !important;
     }
 }
 @media only screen and (max-width: 768px) {
