@@ -226,34 +226,59 @@ body::-webkit-scrollbar {
     }
 }
 .hero .hero-caption h1 {
-    font-size: 90px;
+    font-size: 70px;
+    text-align: left;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 1000px) {
     .hero .hero-caption h1 {
         text-align: left;
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .hero .hero-caption h1 {
+        text-align: left;
+        font-size: 50px;
     }
 }
 @media (max-width: 768px) and (min-width: 551px) {
     .hero .hero-caption h1 {
-        font-size: 60px;
+        font-size: 45px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 550px) {
     .hero .hero-caption h1 {
-        font-size: 48px;
+        font-size: 30px;
+        text-align: center;
     }
 }
 .hero .hero-caption h2 {
+    text-align: left;
     font-size: 36px;
 }
+@media only screen and (max-width: 1000px) {
+    .hero .hero-caption h2, .rotator {
+        text-align: left;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .hero .hero-caption h2, .rotator {
+        text-align: left;
+        font-size: 25px;
+    }
+}
 @media (max-width: 768px) and (min-width: 551px) {
-    .hero .hero-caption h2 {
-        font-size: 20px;
+    .hero .hero-caption h2, .rotator {
+        font-size: 25px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 550px) {
-    .hero .hero-caption h2 {
-        font-size: 16px;
+    .hero .hero-caption h2, .rotator {
+        font-size: 20px;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 769px) {
