@@ -109,16 +109,16 @@ body::-webkit-scrollbar {
 }
 .dark:hover {
     background: black;
-    color: #cfc6bf !important;
+    color: #d8f3dc !important;
     border-color: black;
 }
 .light {
-    color: #cfc6bf;
+    color: #d8f3dc;
 }
 .light:hover {
-    background: #cfc6bf;
+    background: #d8f3dc;
     color: black;
-    border-color: #cfc6bf;
+    border-color: #d8f3dc;
 }
 .white {
     color: white;
@@ -285,6 +285,7 @@ body::-webkit-scrollbar {
     .hero .hero-caption h2, .rotator {
         text-align: left;
         font-size: 25px;
+        line-height: 1.5;
     }
 }
 @media (max-width: 768px) and (min-width: 551px) {
@@ -310,6 +311,7 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 769px) {
     .hero .hero-caption .rotator-wrap {
         border-color: white !important;
+        line-height: 1.5;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -498,7 +500,7 @@ body::-webkit-scrollbar {
     }
 }
 #about {
-    background: #cfc6bf;
+    background: #d8f3dc;
     color: black;
     padding: 5% 10%;
 }
@@ -576,7 +578,7 @@ body::-webkit-scrollbar {
 }
 #contact {
     padding: 8% 10%;
-    background: #b7afa4;
+    background: #52b788;
     text-align: center;
     color: black;
 }
@@ -637,7 +639,7 @@ body::-webkit-scrollbar {
 }
 #contact .contactform input:focus,
 #contact .contactform textarea:focus {
-    background: #cfc6bf;
+    background: #d8f3dc;
     border: 0px;
     outline: none;
 }
@@ -664,7 +666,7 @@ body::-webkit-scrollbar {
 }
 #contact .send {
     background: black;
-    color: #cfc6bf;
+    color: #d8f3dc;
     border-radius: 2px;
     position: relative;
     border: 2px solid black;
@@ -713,7 +715,7 @@ footer .socials ul a {
     margin: 0px 10px;
 }
 footer .socials ul a:hover {
-    color: #cfc6bf;
+    color: #d8f3dc;
 }
 footer .others {
     font-size: 8px;
@@ -728,7 +730,7 @@ footer .copyright span {
 .pagecontent {
     padding: 5% 10%;
     margin: auto;
-    background: #f3f3f3;
+    background: #d8f3dc;
 }
 @media only screen and (max-width: 979px) {
     .pagecontent {
