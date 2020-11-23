@@ -27,6 +27,9 @@ a {
     text-decoration: none;
     color: white;
 }
+.omar-nav ul li a:hover {
+    color: #b7e4c7;
+}
 .content {
     max-width: 980px;
     margin: auto;
