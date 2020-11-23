@@ -75,11 +75,11 @@ video
     background: transparent;
 }
 body::-webkit-scrollbar {
-    width: 20px;
+    width: 15px;
   }
   
   body::-webkit-scrollbar-track {
-    background:  linear-gradient(0deg, rgb(0, 0, 0), rgb(255, 255, 255) 100%);
+    background:  linear-gradient(0deg, rgb(255, 255, 255), #52b788 100%);
   }
   
   body::-webkit-scrollbar-thumb {
@@ -108,6 +108,9 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
     .medium {
         margin: auto;
+    }
+    .cursor {
+        display:none;
     }
 }
 .dark:hover {
@@ -278,10 +281,16 @@ body::-webkit-scrollbar {
     text-align: left;
     font-size: 36px;
 }
+.hero .hero-caption .rotator-wrap {
+    color: #52b788 !important;
+}
 @media only screen and (max-width: 1000px) {
     .hero .hero-caption h2, .rotator {
         text-align: left;
         font-size: 30px;
+    }
+    .hero .hero-caption .rotator-wrap {
+        color: #52b788 !important;
     }
 }
 @media only screen and (max-width: 769px) {
@@ -289,6 +298,9 @@ body::-webkit-scrollbar {
         text-align: left;
         font-size: 25px;
         line-height: 1.5;
+    }
+    .hero .hero-caption .rotator-wrap {
+        color: #52b788 !important;
     }
 }
 @media (max-width: 768px) and (min-width: 551px) {
@@ -300,6 +312,9 @@ body::-webkit-scrollbar {
         margin-left: 30px;
         line-height: 1.5;
     }
+    .hero .hero-caption .rotator-wrap {
+        color: #52b788 !important;
+    }
 }
 @media only screen and (max-width: 550px) {
     .hero .hero-caption h2, .rotator {
@@ -310,16 +325,20 @@ body::-webkit-scrollbar {
     .hero .hero-caption h2, .hero .hero-caption h1 {
         margin-left: 30px;
     }
+    .hero .hero-caption .rotator-wrap {
+        color: #52b788 !important;
+    }
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption .rotator-wrap {
-        border-color: white !important;
+        border-color: #ffffff !important;
         line-height: 1.5;
+        color: #52b788 !important;
     }
 }
 @media only screen and (max-width: 768px) {
     .hero .hero-caption .rotator-wrap {
-        color: white !important;
+        color: #52b788 !important;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -329,7 +348,7 @@ body::-webkit-scrollbar {
 }
 @media only screen and (max-width: 768px) {
     .hero .hero-caption a {
-        color: white !important;
+        color: #52b788 !important;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -345,6 +364,9 @@ body::-webkit-scrollbar {
         background: black;
         z-index: 1;
     }
+}
+.excla {
+    color: #52b788;
 }
 #work {
     z-index: 1;
@@ -733,7 +755,7 @@ footer .copyright span {
 .pagecontent {
     padding: 5% 10%;
     margin: auto;
-    background: #d8f3dc;
+    background: #e7f1e8;
 }
 @media only screen and (max-width: 979px) {
     .pagecontent {
