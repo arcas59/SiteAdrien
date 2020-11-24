@@ -3,7 +3,6 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  
 [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](http://forthebadge.com)
 
 
 Vous trouverez ici code source de mon site web de développeur web freelance.

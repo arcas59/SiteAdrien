@@ -266,6 +266,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 999;
     position: absolute;
     bottom: 40%;
+    -webkit-text-stroke: 1px #000;
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption {
@@ -304,7 +305,6 @@ body::-webkit-scrollbar-thumb {
 .hero .hero-caption h2 {
     text-align: left;
     font-size: 36px;
-    -webkit-text-stroke: 1px #000;
 }
 .hero .hero-caption .rotator-wrap {
     color: #52b788 !important;
@@ -834,7 +834,7 @@ footer .socials ul a {
     margin: 0 10px;
 }
 footer .socials ul a:hover {
-    color: #74c69d;
+    color: #52b788;
 }
 footer .others {
     font-size: 8px;
