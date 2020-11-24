@@ -83,7 +83,6 @@ a {
     margin: auto;
 }
 .headline {
-    text-align: center;
     z-index: 1;
     font-size: 70px;
 }
@@ -266,7 +265,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 999;
     position: absolute;
     bottom: 40%;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: thin;
 }
 @media only screen and (min-width: 769px) {
     .hero .hero-caption {
@@ -355,6 +355,7 @@ body::-webkit-scrollbar-thumb {
     .hero .hero-caption h1,
     .hero .hero-caption h2 {
         margin-left: 30px;
+        line-height: 1.5;
     }
     .hero .hero-caption .rotator-wrap {
         color: #52b788 !important;
