@@ -93,6 +93,9 @@ a {
 .rotator {
     font-size: 40px;
 }
+#myvideo {
+    background-image: url('../image/fond.jpg');
+}
 video {
     margin-left: auto;
     margin-right: auto;
@@ -210,10 +213,11 @@ body::-webkit-scrollbar-thumb {
 .adrien-nav ul {
     margin: 0;
     padding: 0;
+    width: auto;
     list-style-type: none;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (3, 1fr);
+    -ms-grid-columns: (1fr) [3];
     grid-template-columns: repeat(3, 1fr);
     justify-items: end;
     -webkit-box-align: center;
@@ -762,7 +766,7 @@ body::-webkit-scrollbar-thumb {
 #contact .contactform textarea:focus {
     background: #d8f3dc;
     border: 0;
-    outline: 0;
+    outline: none;
 }
 #contact .contactform [type="submit"] {
     background: #232323;
@@ -902,7 +906,7 @@ footer .copyright span {
     }
 }
 .pagecontent .projects .single-project {
-    padding: 20px 0;
+    padding: 20px 0px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 1fr;
@@ -917,7 +921,7 @@ footer .copyright span {
         grid-template-columns: 100%;
         display: block;
         width: 100%;
-        padding: 0;
+        padding: 0px;
         position: relative;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -970,18 +974,18 @@ footer .copyright span {
     }
 }
 .pagecontent .projects .single-project .single-content .info {
-    color: #b7afa4;
+    color: #1B4332;
     margin-bottom: 30px;
 }
 .pagecontent .projects .single-project .single-content .visit {
-    background: #b7afa4;
+    background: #2D6A4F;
     font-size: 12px;
     color: #fff;
     padding: 14px 30px;
 }
 @media only screen and (max-width: 979px) {
     .pagecontent .projects .single-project .single-content .visit {
-        background: #000;
+        background: #2D6A4F;
     }
 }
 .pagecontent .projects .single-project .single-content .visit:hover {
@@ -1017,11 +1021,19 @@ footer .copyright span {
 @media only screen and (max-width: 768px) {
     .thumbs {
         border-bottom: 2px solid rgba(207, 198, 191, 0.2);
+        max-width:100%;
+        max-height:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider-a img {
+        max-width:100%;
+        max-height:100%;
     }
 }
 .thumbs img {
     text-align: center;
-    width: 490px;
+    width: 100%;
     height: auto;
 }
 .year {
