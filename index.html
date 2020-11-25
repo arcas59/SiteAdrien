@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,20 +11,29 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/cursor.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <script type="text/javascript" src="js/plugins/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="js/plugins/jquery-migrate-3.3.1.min.js"></script>
-        <script type="text/javascript" src="js/plugins/rotator.js"></script>
+        <script src="js/plugins/jquery-3.5.1.min.js"></script>
+        <script src="js/plugins/jquery-migrate-3.3.1.min.js"></script>
+        <script src="js/plugins/rotator.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF3LSCT7CN"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-XF3LSCT7CN");
+        </script>
         <title>Adrien Ribeiro | Développeur Web full stack freelance à Lille, Nord (59)</title>
         <meta
             name="description"
             content="Adrien Ribeiro, développeur web full stack et intégrateur freelance dans la métropole Lilloise en hauts-de-france (principalement Lille, Roubaix et Tourcoing). Je crée des sites et applications web pour mes clients tel que des artistes, des entrepreneurs, des entreprises, des associations, des évènements...."
         />
-        <meta property="ar:image" content="image/adriennb.jpg" />
+        <meta property="ar:image" content="image/model.jpg" />
         <link rel="icon" type="image/svg" href="image/ar-logocircle2.svg" />
     </head>
     <body>
         <nav class="adrien-nav">
-            <a href="https://adrienribeiro.com/index.html"><img class="logo" src="image/ar-logocircle2.svg" /></a>
+            <a href="https://adrienribeiro.com/index.html"><img class="logo" src="image/ar-logocircle2.svg" alt="logo Adrienribeiro.com" /></a>
             <ul>
                 <li><a href="projects.html">Mes Projets</a></li>
                 <li><a href="index.html#about">À propos</a></li>
@@ -34,7 +43,7 @@
         <div class="hero">
             <video id="myvideo" preload autoplay loop muted playsinline></video>
             <div class="hero-caption">
-                <h1 class="headline">Bonjour<span class="excla">!</span> Je suis <span class="excla">Adrien</span></h1>
+                <h1 class="headline">Bonjour<span class="excla"> !</span> Je suis <span class="excla">Adrien</span></h1>
                 <h2 class="head2">
                     et je
                     <span
@@ -52,12 +61,12 @@
                 <div class="about-text">
                     <h2 class="name">Je suis Adrien<span class="note"> Mais vous le saviez déjà</span></h2>
                     <p class="bio">
-                        Je suis concepteur et développeur web freelance dans le nord de la Françe. Je propose mon expertise de developpeur full stack majoritairement dans la métropole lilloise tout en étant basé à Tourcoing. J'adore crée et
-                        developpé des sites et applications web responsive et mobile first. Je met un point d'honneur à concevoir un UX & UI design ergonomique, fonctionnel et efficient à la fois. Je veux développer des solutions pour vous
-                        et dépasser à vos attentes.
+                        <span class="tab">Je suis concepteur</span> et développeur web freelance dans le nord de la Françe. Je propose mon expertise de developpeur full stack majoritairement dans la métropole lilloise tout en étant basé à
+                        Tourcoing. J'adore crée et developpé des sites et applications web responsive et mobile first. Je met un point d'honneur à concevoir un UX & UI design ergonomique, fonctionnel et efficient à la fois. Je veux
+                        développer des solutions pour vous et dépasser à vos attentes.
                     </p>
                 </div>
-                <img class="profile" src="image/adriennb.jpg" />
+                <img class="profile" src="image/adriennb.jpg" alt="photo profil Adrien Ribeiro" />
             </div>
         </div>
         <div id="work">
@@ -65,7 +74,7 @@
             <div class="featured-projects-wrapper">
                 <div class="featured" style="background-image: url(&#39;image/cvex.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/cvex.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/cvex.jpg" alt="icone projet cv" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Création d'un CV au format HTML &amp; CSS à partir d'une maquette</p>
                         <a class="view" href="https://arcas59.github.io/P2_CV_Adrien_Ribeiro/" target="blank">Visiter le Site <i class="fas fa-share-square"></i> </a>
@@ -73,7 +82,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/ohex.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/ohex.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/ohex.jpg" alt="icone projet site restaurant" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Coder et dynamiser une page web avec des animations CSS</p>
                         <a class="view" href="https://arcas59.github.io/P3_Ohmyfood/index.html" target="blank">Visiter le Site <i class="fas fa-share-square"></i> </a>
@@ -81,7 +90,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/chouette.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/chouette.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/chouette.jpg" alt=" icone projet site seo" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Optimisation SEO du site "La Chouette Agence" + correction des bugs</p>
                         <a class="view" href="https://arcas59.github.io/P4_La_Chouette_Modifie_avec_SEO/" target="blank">Visiter le Site <i class="fas fa-share-square"></i> </a>
@@ -89,7 +98,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/ori.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/ori.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/ori.jpg" alt="icone projet site marchand" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Construction d'un site e-commerce avec HTML, CSS &amp; Javascript</p>
                         <a class="view" href="https://github.com/arcas59/P5_Site_ecommerce_Adrien_Ribeiro" target="blank">Voir mon Github <i class="fas fa-share-square"></i> </a>
@@ -97,7 +106,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/sauce.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/sauce.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/sauce.jpg" alt="icone projet site sauce" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Réalisation d'une API securisée + backend pour une application web gastronomique</p>
                         <a class="view" href="https://github.com/arcas59/P6_So_Pekocko_BackEnd" target="blank">Voir mon Github <i class="fas fa-share-square"></i> </a>
@@ -105,7 +114,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/group.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/group.jpg" /> <img class="projectlogo" src="image/logoop.png" />
+                        <img class="thumb" src="image/group.jpg" alt="icone projet site groupo" /> <img class="projectlogo" src="image/logoop.png" alt="logo openclassrooms" />
                         <h4>Projet OpenClassRooms</h4>
                         <p>Création d'un réseau social professionel grâce à Vue.js, Node.js &amp; Mysql</p>
                         <a class="view" href="https://github.com/arcas59/P7_Groupomania" target="blank">Voir mon Github <i class="fas fa-share-square"></i> </a>
@@ -113,7 +122,7 @@
                 </div>
                 <div class="featured" style="background-image: url(&#39;image/hae.jpg&#39;);">
                     <div class="project-content">
-                        <img class="thumb" src="image/hae.jpg" /> <img class="projectlogo" src="image/logohae.jpg" />
+                        <img class="thumb" src="image/hae.jpg" alt="icone projet site coréen" /> <img class="projectlogo" src="image/logohae.jpg" alt="logo site coréen" />
                         <h4>Restaurant Coréen Haebalaki</h4>
                         <p>Création d'un site responsive, à l'interface épurée &amp; minimaliste</p>
                         <a class="view" href="https://arcas59.github.io/HaebalakiProject/" target="blank">Visiter le Site <i class="fas fa-share-square"></i> </a>
@@ -124,10 +133,9 @@
         </div>
         <div id="contact">
             <div>
-                <h2>Construisons demain ensemble!</h2>
-                <h2></h2>
+                <h2>Construisons demain ensemble !</h2>
                 <h4>Vous avez un projet ? Contactez-moi !</h4>
-                <a class="send" href="mailto:contact@adrienribeiro.com?subject=Projet de site Web">Envoyer un message </a>
+                <a class="send" href="mailto:contact@adrienribeiro.com?subject=Projet_de_site_Web">Envoyer un message </a>
             </div>
             <p class="email"><a href="mailto:contact@adrienribeiro.com">contact@adrienribeiro.com</a></p>
             <p class="email">Tel : 06.14.50.68.85</p>
@@ -150,15 +158,10 @@
                     </li>
                 </ul>
             </div>
-            <p class="copyright">Adrien Ribeiro | 2020 | Tous droits réservés.<span> Si vous arrivez à lire ce petit mot de fin, bravo, vous avez une excellente vue </span></p>
+            <p class="copyright">Adrien Ribeiro | 2021 | Tous droits réservés.<span> Si vous arrivez à lire ce petit mot de fin, bravo, vous avez une excellente vue </span></p>
         </footer>
         <div class="cursor"></div>
-        <style type="text/css">
-            .rotator > .rotator-wrap {
-                border-right: 0.08em solid #fff;
-            }
-        </style>
-        <script type="text/javascript" src="js/plugins/videoResponsive.js"></script>
-        <script type="text/javascript" src="js/plugins/cursor.js"></script>
+        <script src="js/plugins/videoResponsive.js"></script>
+        <script src="js/plugins/cursor.js"></script>
     </body>
 </html>
