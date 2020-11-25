@@ -1,1 +1,14 @@
-var video=$("#myvideo"),WindowWidth=$(window).width();WindowWidth<769?video.append("<source src='video/videomob.webm' type='video/webm' >"):video.append("<source src='video/videodesk.webm' type='video/webm' >");
+var promise = document.querySelector('#myvideo').play();
+
+if (promise !== undefined) {
+    promise.catch(error => {
+        // Auto-play was prevented
+        // Show a UI element to let the user manually start playback
+    }).then(() => {
+        // Auto-play started
+    });
+};
+
+var video = $("#myvideo"),
+    WindowWidth = $(window).width();
+WindowWidth < 769 ? video.append("<source src='video/videomob.webm' type='video/webm' >") : video.append("<source src='video/videodesk.webm' type='video/webm' >");
