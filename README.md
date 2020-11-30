@@ -5,7 +5,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 
 
-Vous trouverez ici code source de mon site web de développeur web freelance.
+Vous trouverez ici le code source de mon site web de développeur web freelance.
 
 
 ## Pour commencer
