@@ -120,17 +120,25 @@ video {
 ::-webkit-scrollbar {
     width: 0;
     background: 0 0;
+    z-index: -30;
+    cursor: none;
 }
 body::-webkit-scrollbar {
     width: 15px;
+    z-index: -30;
+    cursor: none;
 }
 body::-webkit-scrollbar-track {
     background: linear-gradient(0deg, white, #52b788 100%);
+    z-index: -30;
+    cursor: none;
 }
 body::-webkit-scrollbar-thumb {
     background: 0 0;
     box-shadow: 0 0 0 100000vh #000;
+    cursor: none;
 }
+
 .btn {
     border-radius: 2px;
     position: relative;
