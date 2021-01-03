@@ -79,11 +79,9 @@ a {
 .adrien-nav ul li a:hover {
     color: #b7e4c7;
 }
-.adrien-nav ul li .deco:hover {
-    color: #009634;
-}
 .deco {
-    color: #000;
+    color: rgb(255, 255, 255);
+    background-color: #000;
 }
 .content {
     max-width: 980px;
@@ -191,13 +189,11 @@ body::-webkit-scrollbar-thumb {
 .adrien-nav {
     position: absolute;
     z-index: 10;
-    width: 90%;
+    width: 100%;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
 }
 .adrienlist {
     width: 300px;
@@ -213,14 +209,16 @@ body::-webkit-scrollbar-thumb {
     .adrien-nav {
         -ms-grid-columns: 20% 1fr;
         grid-template-columns: 20% 1fr;
-        padding: 2.5% 5%;
         z-index: 9999;
     }
 }
 @media only screen and (max-width: 550px) {
     .adrien-nav {
-        font-size: 14px;
-        padding: 5% !important;
+        font-size: 12px;
+        padding-top:5%;
+    }
+    .adrien-nav .logo {
+        padding-left:10px;
     }
 }
 /*
