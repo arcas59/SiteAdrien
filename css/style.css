@@ -164,6 +164,9 @@ body::-webkit-scrollbar-thumb {
     .cursor {
         display: none;
     }
+    .cursor2 {
+        display: none;
+    }
 }
 .dark:hover {
     background: #000;
