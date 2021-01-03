@@ -200,6 +200,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-around;
     list-style:none;
+    margin-left: 30%;
 }
 .centernav {
     display: flex;
@@ -210,6 +211,9 @@ body::-webkit-scrollbar-thumb {
         -ms-grid-columns: 20% 1fr;
         grid-template-columns: 20% 1fr;
         z-index: 9999;
+    }
+    .adrienlist {
+        margin-left: 0px;
     }
 }
 @media only screen and (max-width: 550px) {
